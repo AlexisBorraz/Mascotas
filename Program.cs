@@ -7,15 +7,15 @@ namespace MiMascota
     {
         // Atributos o propiedades privadas
         private string nombre;
-        private int Edad;
+        private int Edad; // 1-25
         private string tipo; // "perro" o "gato"
         private string sonido; // "ladra", "maulla" o "ronrronea"
 
         // Constructor para inicializar los atributos de MiMascota
-        public MiMascota(string nom, int dias, string ti, string sound)
+        public MiMascota(string nom, int Ed, string ti, string sound)
         {
         	nombre =  nom;
-        	diasDeVida =  dias;
+        	Edad =  Ed;
         	tipo = ti;
             sonido = sound;
         }
@@ -36,9 +36,9 @@ namespace MiMascota
         static void Main(string[] args)
         {
             // Crear un objeto de tipo MiMascota
-            Producto MiMascota = new MiMascota("Hassel", 7, "perro", "ladra");
+            MiMascota MiMascota = new MiMascota("Hassel", 7, "perro", "ladra");
 
-            // Mostrar la información del producto
+            // Mostrar la información de MiMascota
             MiMascota.MostrarInformacion();
 
         }

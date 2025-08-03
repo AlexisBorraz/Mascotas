@@ -1,13 +1,13 @@
 Inicio del programa
 
-Definir clase Producto
+Definir clase MiMascota
     Atributos privados:
         - nombre (cadena)
         - Edad (entero)
         - tipo (cadena) // Puede ser "perro" o "gato"
         - sonido (cadena) // Puede ser "ladra", "maulla" o "ronronea"
 
-    Método Constructor Producto(nom, ed, tip)
+    Método Constructor MiMascota(nom, ed, tip)
         Asignar nom a nombre
         Asignar ed a Edad
         Asignar tip a tipo
@@ -22,7 +22,7 @@ Fin clase Producto
 
 Definir clase principal Program
     Método Main()
-        Crear objeto miMascota de tipo Producto con valores:
+        Crear objeto miMascota de tipo MiMascota con valores:
             - nombre = "Hassel"
             - Edad = 7
             - tipo = "perro"
