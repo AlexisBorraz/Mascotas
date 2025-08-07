@@ -4,8 +4,14 @@ Definir clase MiMascota
     Atributos privados:
         - nombre (cadena)
         - Edad (entero)
+        - Edad Humana (entero)
         - tipo (cadena) // Puede ser "perro" o "gato"
         - sonido (cadena) // Puede ser "ladra", "maulla" o "ronronea"
+
+Método calcularEdadHumana
+       edadHumana = edad * 7
+       retornar edadHumana
+
 
     Método Constructor MiMascota(nom, ed, tip)
         Asignar nom a nombre
